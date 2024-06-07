@@ -14,4 +14,7 @@
     .container-title p {
         font-size: 12px;
     }
+    .container-input label {
+        font-size: 12px;
+    }
 }
