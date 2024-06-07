@@ -22,3 +22,5 @@ btnCopiar.addEventListener("click", function () {
         btnCopiar.classList.remove("btn-copiado");
     }, 2000);
 });
+
+GerarSenha();
