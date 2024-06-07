@@ -8,7 +8,6 @@ btnGerar.addEventListener("click", gerarSenha);
 async function gerarSenha () {
     const resp = await fetch(URL);
     const obj = await resp.json();
-
     inputSenha.value = obj.password;
 }
 
