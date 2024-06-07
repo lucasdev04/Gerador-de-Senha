@@ -1,4 +1,4 @@
-const URL = "https://www.psswrd.net/api/v1/password/?length=17&lower=1&upper=0&int=1&special=0";
+const URL = "https://www.psswrd.net/api/v1/password/";
 const btnGerar = document.getElementById("btn-gerar");
 const inputSenha = document.getElementById("input-senha");
 const btnCopiar = document.getElementById("btn-copiar");
