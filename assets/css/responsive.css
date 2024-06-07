@@ -1,0 +1,17 @@
+@media screen and (max-width: 605px) {
+    main {
+        margin: 30px;
+    }
+    .container-btn {
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    h1 {
+        font-size: 15px;
+    }
+    .container-title p {
+        font-size: 12px;
+    }
+}
