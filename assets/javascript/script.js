@@ -6,9 +6,9 @@ const btnCopiar = document.getElementById("btn-copiar");
 btnGerar.addEventListener("click", gerarSenha);
 
 async function gerarSenha () {
-    const resp = await fetch(URL);
-    const obj = await resp.json();
-    inputSenha.value = obj.password;
+        const resp = await fetch(URL);
+        const obj = await resp.json();
+        inputSenha.value = obj.password;
 }
 
 btnCopiar.addEventListener("click", function () {
